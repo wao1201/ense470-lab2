@@ -1,0 +1,59 @@
+Puzzle Summary:
+===============================================================================================
+1. One3InIt(){...}  <may take 5 mins>
+   use for loop to check through 100 to 999, remove all the numbers that do not have 3 in it,
+   and store the remaining numbers in an array checking[]
+
+2. NoRepeats(){...} <may take 5 mins>
+   check through the array checking[], remove all the numbers that have repeat digits
+
+3. DividedBy3(){...} <may take 5 mins>
+   check through checking[], remove all numbers that cannot be divided by 3
+
+4. FindNumber(){...} <may take 60 mins>
+   check each element in checking[] for the six conditions
+   int valid = 0;
+   sub-functions:
+    is_3primes(){...}         // If it were true, valid = valid +1
+    is_Triangular(){...}      // If it were true, valid = valid +1
+    is_Cube(){...}            // If it were true, valid = valid +1
+    is_1p2p(){...}            // If it were true, valid = valid +1
+    is_3InIt(){...}           // If it were true, valid = valid +1
+    is_2p1p(){...}            // If it were true, valid = valid +1
+   If valid == 3, store the number into new array results[]
+===============================================================================================
+
+Task               Est Time               Act Time               Personell
+-------------------------------------------------------------------------------
+One3InIt()          5 mins                 10 mins                 Wei
+-------------------------------------------------------------------------------
+NoRepeats()         5 mins                 10 mins                 Wei
+-------------------------------------------------------------------------------
+DividedBy3()        5 mins                 10 mins                 Wei
+-------------------------------------------------------------------------------
+FindNumber()        60 mins                100 mins                Wei, Yachan
+-------------------------------------------------------------------------------
+-is_3primes()       10 mins                25 mins                 Wei, Yachan
+-------------------------------------------------------------------------------
+-is_Triangular()    10 mins                25 mins                 Yachan, Wei
+-------------------------------------------------------------------------------
+-is_Cube()          10 mins                10 mins                 yachan, Wei
+-------------------------------------------------------------------------------
+-is_1p2p()          10 mins                10 mins                 Wei, Yachan
+-------------------------------------------------------------------------------
+-is_3InIt()         10 mins                25 mins                 Wei, Yachan
+-------------------------------------------------------------------------------
+-is_2p1p()          10 mins                5 mins                  Wei
+-------------------------------------------------------------------------------
+
+===============================================================================================
+
+
+
+
+
+
+
+
+
+
